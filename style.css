@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(27, 27, 27);
+}
+nav{
+    background-color: rgb(61, 61, 61);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#div4{
+    background-color: rgb(61, 61, 61);
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 300px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+#div3{
+    background-color: rgb(61, 61, 61);
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 300px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+.Habilidades{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(61, 61, 61);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px;
+    border: 2px solid rgb(71, 255, 35);
+    
+}
+img{
+    width: 70px;
+    height: 70px;
+    box-sizing: border-box;
+}
+#css{
+    padding-right: 50px;
+    text-align: center;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+#cssimg{
+    text-align: center;
+}

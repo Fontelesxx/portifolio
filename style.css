@@ -1,60 +1,117 @@
-body{
-    background-color: rgb(27, 27, 27);
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 10px;
 }
-nav{
-    background-color: rgb(61, 61, 61);
-}
-a{
+
+.guia{
     text-decoration: none;
+    color: #8b32f4;
+    margin-left: 50px;
+}
+#pj{
+    margin-left: 300px;
+}
+h1{
+    color: #8b32f4;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-color: black;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+p{
     color: white;
 }
-#div4{
-    background-color: rgb(61, 61, 61);
+#sobre_mim{
+    color: #8b32f4;
+    margin-left: 620px;
+}
+#eu{
+    width: 1000px;
     margin-left: 100px;
-    margin-right: 100px;
-    height: 300px;
-    border-radius: 5px;
-    text-align: center;
-    color: white;
-    padding-top: 20px;
-    margin-top: 100px;
-    box-sizing: border-box;
 }
-#div3{
-    background-color: rgb(61, 61, 61);
-    margin-left: 100px;
-    margin-right: 100px;
-    height: 300px;
-    border-radius: 5px;
+#meu_projeto{
+    color: #8b32f4;
     text-align: center;
-    color: white;
-    padding-top: 20px;
-    margin-top: 50px;
-    box-sizing: border-box;
+    margin-top: 60px;
 }
-.Habilidades{
+.imagem_projeto{
+    width: 300px;
+}
+.projetos{
     display: inline-block;
-    width: 150px;
-    height: 150px;
-    background-color: rgb(61, 61, 61);
+    text-align: center;
+    margin-left: 70px;
+    
+}
+#epic{
+    margin-left: 260px;
+}
+#caixa_hab{
+    color: #8b32f4;
+    text-align: center;
+    margin-top: 60px;
+}
+.habilidades{
+    width: 250px;
+    height: 90px;
+    border-radius: 20px;
+    color: #8b32f4;
+    display: inline-block;
+    margin: 20px;
+    background-color: rgb(43, 43, 48);
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
-    margin: 20px;
-    border: 2px solid rgb(71, 255, 35);
+    padding-top: 20px;
+    font-size: 40px;
+}
+#contatos{
+    margin-top: 60px;
+    background-color: #5320a6;
+    width: 900px;
+    border-radius: 20px;
+    margin-left: 170px;
+    height: 200px;
+    box-sizing: border-box;
+}
+#t_ct{
+    color: #8b32f4;
+    text-align: center;
+}
+.contatos_meus{
+    background-color: #8b32f4;
+    width: 240px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    margin-left: 40px;
+}
+.imagem_contato{
+    width: 145px;
+    margin-left: 50px;
+}
+#outlook{
+    margin-bottom: 20px;
     
 }
-img{
-    width: 70px;
-    height: 70px;
-    box-sizing: border-box;
+#linkedin{
+    padding-bottom: 100px;
 }
-#css{
-    padding-right: 50px;
-    text-align: center;
-    padding-left: 50px;
-    box-sizing: border-box;
+#caixa_eu{
+    display: flex;
 }
-#cssimg{
-    text-align: center;
+h2{
+    font-family: Arial, Helvetica, sans-serif;
 }

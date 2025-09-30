@@ -1,117 +1,181 @@
-
+/* Importa a fonte "Open Sans" do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+/* Define estilo global para todos os elementos */
 *{
-    margin: 10px;
+    margin: 10px; /* Define uma margem padrão de 10px em tudo */
 }
 
+/* Links da barra de navegação */
 .guia{
-    text-decoration: none;
-    color: #8b32f4;
-    margin-left: 50px;
+    text-decoration: none; /* Remove o sublinhado */
+    color: #8b32f4; /* Cor roxa para os links */
+    margin-left: 50px; /* Espaçamento entre os links */
 }
-#pj{
-    margin-left: 300px;
+
+/* Estilo específico para o link "Meus Projetos" */
+#m_projeto{
+    margin-left: 30px; /* Afasta para a direita */
 }
+.p_projeto{
+    width: 410px;
+}
+
+/* Título principal*/
 h1{
-    color: #8b32f4;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    color: #8b32f4; /* Roxo */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte sem serif */
 }
+
+/* Estilo do corpo da página */
 body{
-    background-color: black;
-    font-size: 25px;
-    font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    background-size: cover; /* Faz a imagem de fundo cobrir toda a tela */
+    background-image: url(imagens/fundo\ \(2\).png); /* Imagem de fundo */
+    font-size: 25px; /* Tamanho padrão do texto */
+    font-family: "Open Sans", sans-serif; /* Fonte importada */
+    font-optical-sizing: auto; 
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100; 
 }
+
+/* Parágrafos */
 p{
-    color: white;
+    color: white; 
 }
+
+/* Título "Sobre mim" */
 #sobre_mim{
-    color: #8b32f4;
-    margin-left: 620px;
+    color: #8b32f4; 
+    margin-left: 620px; /* move para direita*/
 }
-#eu{
-    width: 1000px;
-    margin-left: 100px;
+
+/* Elementos com a classe .eu */
+.eu{
+    display: inline-block; /* Coloca elementos lado a lado */
 }
+
+/* Texto da descrição "Sobre mim" */
+#p_meu{
+    width: 650px; /* Largura */
+    margin-left: 100px; /* Afasta da imagem */
+}
+
+/* Caixa que contém o "Sobre mim" */
+#caixa_eu{
+    display: inline-block;
+}
+
+/* Foto pessoal */
+#foto_minha{
+    width: 400px; /* Largura fixa */
+    margin-left: 20px; /* Espaçamento à esquerda */
+}
+
+/* Título da seção "Meus Projetos" */
 #meu_projeto{
     color: #8b32f4;
-    text-align: center;
-    margin-top: 60px;
+    text-align: center; /* Centralizado */
+    margin-top: 60px; /* Espaço acima */
 }
+
+/* Imagem de cada projeto */
 .imagem_projeto{
-    width: 300px;
+    width: 300px; /* Tamanho fixo */
 }
+
+/* Caixa de cada projeto */
 .projetos{
-    display: inline-block;
-    text-align: center;
-    margin-left: 70px;
-    
+    display: inline-block; /* Um projeto ao lado do outro */
+    text-align: center; /* Centraliza texto e imagem */
+    margin-left: 70px; /* Espaço entre os projetos */
 }
+
+/* Projeto "Epic" tem mais espaçamento */
 #epic{
-    margin-left: 260px;
+    margin-left: 160px;
 }
+
+/* Título da seção "Habilidades" */
 #caixa_hab{
     color: #8b32f4;
     text-align: center;
     margin-top: 60px;
 }
+
+/* Estilo de cada habilidade */
 .habilidades{
-    width: 250px;
-    height: 90px;
-    border-radius: 20px;
-    color: #8b32f4;
-    display: inline-block;
-    margin: 20px;
-    background-color: rgb(43, 43, 48);
-    text-align: center;
+    width: 250px; /* Largura da caixa */
+    height: 90px; /* Altura da caixa */
+    border-radius: 20px; /* Bordas arredondadas */
+    color: #8b32f4; 
+    display: inline-block; /* Alinhadas lado a lado */
+    margin: 20px; /* Espaçamento entre caixas */
+    background-color: rgb(43, 43, 48); /* Fundo cinza escuro */
+    text-align: center; /* Texto centralizado */
     padding: 20px;
-    box-sizing: border-box;
-    padding-top: 20px;
-    font-size: 40px;
+    box-sizing: border-box; 
+    padding-top: 15px;
+    font-size: 40px; /* Texto grande */
 }
+
+/* Caixa que contém os contatos */
 #contatos{
-    margin-top: 60px;
-    background-color: #5320a6;
-    width: 900px;
-    border-radius: 20px;
-    margin-left: 170px;
-    height: 200px;
+    margin-top: 60px; /* Espaço acima */
+    background-color: #5320a6; 
+    width: 900px; /* Largura  */
+    border-radius: 20px; /* Bordas arredondadas */
+    margin-left: 180px; /* Move para a direita */
+    height: 200px; /* Altura da caixa */
     box-sizing: border-box;
 }
-#t_ct{
+
+/* Título "Contatos" */
+#titulo_contato{
     color: #8b32f4;
     text-align: center;
 }
+
+/* Cada caixa de contato (GitHub, Linkedin, Outlook) */
 .contatos_meus{
-    background-color: #8b32f4;
+    background-color: #8b32f4; 
     width: 240px;
     height: 150px;
-    display: inline-block;
+    display: inline-block; /* Lado a lado */
     border-radius: 20px;
     margin-top: 25px;
     box-sizing: border-box;
-    margin-left: 40px;
+    margin-left: 35px; /* Espaço entre eles */
 }
+
+/* Imagens dentro das caixas de contato */
 .imagem_contato{
     width: 145px;
     margin-left: 50px;
 }
+
+/* Estilo  para o ícone do Outlook */
 #outlook{
     margin-bottom: 20px;
-    
+    height: 130px;
 }
+
+/* Estilo  para o ícone do LinkedIn */
 #linkedin{
-    padding-bottom: 100px;
+    padding-bottom: 150px;
+    height: 150px;
 }
-#caixa_eu{
-    display: inline-block;
-}
+
+
+
+
+/* Subtítulos (h2) */
 h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; /* Fonte sem serif */
+}
+
+/* Imagem do LinkedIn */
+#foto_linkedin{
+    height: 140px;
+    padding-right: 10px;
 }

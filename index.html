@@ -1,81 +1,92 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"><!-- Define o tipo de documento e idioma da página -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portifólio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8"><!-- Define a codificação de caracteres (UTF-8 suporta acentos) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--utiliza 100%da página-->
+    <title>Meu Portifólio</title> <!--Titulo da página-->
+    <link rel="stylesheet" href="style.css">  <!-- Importa o arquivo de estilos CSS -->
 </head>
 
 <body>
-    <nav>
-        <table>
+    <nav><!-- Barra de navegação do site -->
+        <table> <!-- Usando tabela para organizar os links -->
             <th>
-                <h1>Enzo Fonteles</h1>
+                <h1>Enzo Fonteles</h1><!-- Nome principal no topo -->
             </th>
-            <th><a href="" class="guia" id="pj">Meus Projetos</a></th>
-            <th><a href="" class="guia">Habilidades</a></th>
-            <th><a href="" class="guia">Contatos</a></th>
+            <th><a href="#meu_projeto" class="guia" id="m_projeto">Meus Projetos</a></th><!-- Link para seção Projetos -->
+            <th><a href="#caixa_hab" class="guia">Habilidades</a></th><!-- Link para seção Habilidades -->
+            <th><a href="#titulo_contato" class="guia">Contatos</a></th><!-- Link para seção Contatos -->
         </table>
     </nav>
-    <main>
-        <h2 id="sobre_mim">Sobre mim</h2>
-        <div id="caixa_eu">
-
-            <img src="imagens/foto.png" alt="" width="600px" height="300px">
-            <p id="eu">Me chamo Enzo Gabriel Fonteles Figueiredo, tenho 16 anos, e
-                atualmente estou no segundo ano do ensino médio técnico
-                cursando ADS, e também estou cursando Desenvolvimento
-                Web no Instituto da Oportunidade Social. <br><br>
-                Sou formado em Suporte em TI, e sou completamente
-                apaixonado por tecnologia e como ela vem mudando o nosso
-                mundo, e foi por conta disso que eu entrei nesse ramo, e hoje
-                venho aprimorando minhas habilidades e sempre visando
-                descobrir coisas novas.
-            </p>
+    <main> <!--Conteudo principal da página-->
+        <div id="caixa_eu"> <!-- Seção "Sobre mim" -->
+            <h2 id="sobre_mim">Sobre mim</h2>
+            <table>
+                <td> <img src="imagens/foto.png" alt="foto minha" class="eu" id="foto_minha"></td>
+                <td>
+                    <p class="eu" id="p_meu">Me chamo Enzo Gabriel Fonteles Figueiredo, tenho 16 anos, e
+                        atualmente estou no segundo ano do ensino médio técnico
+                        cursando ADS, e também estou cursando Desenvolvimento
+                        Web no Instituto da Oportunidade Social. <br><br>
+                        Sou formado em Suporte em TI, e sou completamente
+                        apaixonado por tecnologia e como ela vem mudando o nosso
+                        mundo, e foi por conta disso que eu entrei nesse ramo, e hoje
+                        venho aprimorando minhas habilidades e sempre visando
+                        descobrir coisas novas.
+                    </p>
+                </td>
+            </table>
         </div>
-        <div>
-            <h2 id="meu_projeto">Meus Projetos</h2>
-            <article>
-                <div class="projetos" id="epic"><img src="imagens/epic.png" alt="Logo do projeto da epic games"
-                        class="imagem_projeto">
-                    <p>Projeto 2</p>
-                    <p>Descrição do projeto</p>
-                </div>
-                <div class="projetos"><img src="imagens/netflix.png" alt="Logo do projeto da netflix"
-                        class="imagem_projeto">
-                    <p>Projeto 1</p>
-                    <p>Descrição do projeto</p>
-                </div>
+        <div><!-- Seção "Meus Projetos" -->
+            <h2 id="meu_projeto">Meus Projetos</h2>  
+            <section>
+                <article class="projetos" id="epic"><a href="https://github.com/Fontelesxx/Epic"><img src="imagens/epic.png" alt="Logo do projeto da epic games"
+                        class="imagem_projeto"></a>
+                    <p>Projeto1</p>
+                    <p class="p_projeto">Projeto em desenvolviment(temos que escolher um site e recria-lo utilizando tudo que sabemos de HTML e CSS)</p>
+                </article>
+                <article class="projetos"><a href=""><img src="imagens/netflix.png" alt="Logo do projeto da netflix"
+                        class="imagem_projeto"></a>
+                    <p>Projeto2</p>
+                    <p class="p_projeto">Foi um projeto feito em sala de aula, onde nós tivemos que recriar um site de nossa escolha utilizando somente HTML</p>
+                </article>
 
-            </article>
+            </section>
         </div>
-        <article id="caixa_hab">
+        <section id="caixa_hab"><!-- Seção "Habilidades" -->
             <h2>Habilidades</h2>
-            <div class="habilidades">HTML</div>
-            <div class="habilidades">CSS</div>
-            <div class="habilidades">JavaScript</div>
-            <div class="habilidades">Git</div>
-            <div class="habilidades">GitHub</div>
-            <div class="habilidades">Python</div>
-            <div class="habilidades">ADS</div>
-            <div class="habilidades">Redes</div>
-            <div class="habilidades">Hardware</div>
-            <div class="habilidades">Software</div>
-            <div class="habilidades">Excel</div>
-            <div class="habilidades">Word</div>
+            <article class="habilidades">HTML</article>
+            <article class="habilidades">CSS</article>
+            <article class="habilidades">JavaScript</article>
+            <article class="habilidades">Git</article>
+            <article class="habilidades">GitHub</article>
+            <article class="habilidades">Python</article>
+            <article class="habilidades">ADS</article>
+            <article class="habilidades">Redes</article>
+            <article class="habilidades">Hardware</article>
+            <article class="habilidades">Software</article>
+            <article class="habilidades">Excel</article>
+            <article class="habilidades">Word</article>
 
-        </article>
-        <div id="t_ct">
+        </section>
+        <div id="titulo_contato">
             <h2>Contatos</h2>
         </div>
-        <footer>
+        <footer><!-- Seção "Contatos" -->
             <div id="contatos">
-                <div class="contatos_meus"><img src="imagens/github.png" alt="" class="imagem_contato"></div>
-                <div class="contatos_meus" id="linkedin"><img src="imagens/linkedin.png" alt="" class="imagem_contato">
+                <div class="contatos_meus">
+                   <a href="https://github.com/Fontelesxx"> <img src="imagens/github.png" alt="imagem do GitHub" class="imagem_contato"
+                        id="imagem_minha" width="200px"></a>
                 </div>
-                <div class="contatos_meus"><img src="imagens/outlook.png" alt="" class="imagem_contato" id="outlook">
+                <div class="contatos_meus">
+                    <a href="https://www.linkedin.com/in/enzo-gabriel-fonteles-figueiredo-7428ab358/">
+                        <img src="imagens/linkedin.png" alt="imagem linkedin" class="imagem_contato" id="foto_linkedin">
+                    </a>
+                </div>
+                <div class="contatos_meus">
+                    <a href="mailto:enzo.gabriel0@outlook.com"><img src="imagens/outlook.png" alt="imagem do outlook" class="imagem_contato"
+                    id="outlook"></a>
                 </div>
             </div>
         </footer>

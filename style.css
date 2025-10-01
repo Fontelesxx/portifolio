@@ -125,7 +125,7 @@ p{
     background-color: #5320a6; 
     width: 900px; /* Largura  */
     border-radius: 20px; /* Bordas arredondadas */
-    margin-left: 180px; /* Move para a direita */
+    margin-left: 250px; /* Move para a direita */
     height: 200px; /* Altura da caixa */
     box-sizing: border-box;
 }

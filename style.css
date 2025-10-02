@@ -91,9 +91,9 @@ p{
     margin-left: 70px; /* Espaço entre os projetos */
 }
 
-/* Projeto "Epic" tem mais espaçamento */
+/* Projeto "Epic" tem mais espaçamento para esquerda */
 #epic{
-    margin-left: 160px;
+    margin-left: 250px;
 }
 
 /* Título da seção "Habilidades" */
